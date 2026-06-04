@@ -27,8 +27,10 @@ S- aving and loading arrays (.npy and .npz files)
 - Itrating over arrays
 
 
-Folder structure :||\
-pandas-numpy-fundamentals
+## Folder structure
+
+```
+pandas-numpy-fundamentals/
 │
 ├── getting_started/
 │   ├── Data_Frames.py          # Creating and modifying DataFrames
@@ -53,10 +55,10 @@ pandas-numpy-fundamentals
 │   ├── encoding.py             # Categorical encoding with get_dummies
 │   └── general_terms.py        # Common EDA operations reference
 │
-└── num_pro/                    # numpy folder
+└── num_pro/
     ├── array.py                # Basic array operations
     ├── arithmetic.py           # Scalar arithmetic
-    ├── broadcasting.py         # Broadcasting explained and demonstrated
+    ├── broadcasting.py         # Broadcasting explained
     ├── slicing.py              # Array slicing
     ├── filtering.py            # Boolean filtering
     ├── aggregate_fun.py        # Aggregate functions with axis
@@ -68,6 +70,7 @@ pandas-numpy-fundamentals
     ├── save_num.py             # Saving arrays to .npy
     ├── save_multiple.py        # Saving multiple arrays to .npz
     └── load_num.py             # Loading saved arrays
+```
 
 Stack
 Python, pandas, numpy
